@@ -7,12 +7,13 @@ __pycache__/
 *.so
 
 # Datasets
-training/*
+training/football-players-detection-1/*
 
 # predictions
 input_videos/*
 output_videos/*
 runs/*
+models/*
 
 # Distribution / packaging
 .Python
