@@ -12,8 +12,6 @@ def main():
     # tracking
 
     # write frames into a video
-    # writer = VideoWriter('output_videos/08fd33_4.avi')
-    # writer.process(frames)
     video_processor = VideoProcessor(reader, writer)
     video_processor.process_video()
 
